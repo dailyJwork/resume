@@ -1,0 +1,134 @@
+body {
+  background-color: floralwhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  gap: 200px;
+}
+
+.headerMainText {
+  padding-right: 100px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.headerImg {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.myPhoto {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+
+.juniorFrontend {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contactInfo {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.telLink {
+  font-size: 17px;
+  color: coral;
+  
+}
+
+.contactSocialMedia{
+    margin-top: 18px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.socialMediaBtn{
+    border: none;
+    background-color: transparent;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.socialMediaBtn:hover, 
+.socialMediaBtn:focus{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.skillsContainer{
+    margin-top: 50px;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.skillsTitle{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.techSkillsList{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skills{
+    display: flex;
+    gap: 150px;
+    padding-bottom: 50px;
+}
+
+.projectExp{
+    padding-top: 80px;
+    max-width: 450px;
+}
+
+.softSkillsContainer{
+    padding: 25px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.techSkillsContainer{
+    margin-top: 20px;
+    padding: 25px;
+    background-color: rgb(241, 216, 183);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectExpTitle{
+    margin-bottom: 15px;
+}
+
+.aboutMeTitle{
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.aboutMeDescr{
+    font-size: 18px;
+}

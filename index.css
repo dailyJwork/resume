@@ -10,7 +10,7 @@ body {
 
 .header {
   display: flex;
-  gap: 200px;
+  gap: 100px;
 }
 
 .headerMainText {
@@ -29,12 +29,14 @@ body {
 
 .title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 50px;
 }
 
 .myPhoto {
   display: block;
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  border-radius: 16px;
+  border: 5px solid antiquewhite;
 }
 
 .juniorFrontend {
